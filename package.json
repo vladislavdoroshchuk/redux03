@@ -1,0 +1,30 @@
+{
+  "name": "thunk-and-promise",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "query-string": "^6.2.0",
+    "query-string-params": "^1.7.5",
+    "querystring": "^0.2.0",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-redux": "5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "latest",
+    "redux-actions": "2.6.1",
+    "redux-logger": "3.0.6",
+    "reselect": "4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://vladislavdoroshchuk.github.io/redux03"
+}
